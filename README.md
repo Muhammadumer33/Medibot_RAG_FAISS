@@ -29,6 +29,5 @@ source venv/bin/activate     # On Linux/macOS
 venv\Scripts\activate        # On Windows
 
 HF_TOKEN=your_huggingface_api_token
-
 streamlit run app.py
 
