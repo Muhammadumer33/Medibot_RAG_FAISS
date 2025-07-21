@@ -14,43 +14,21 @@ MediBot is an AI-powered chatbot designed to provide context-aware answers from 
 - 🎨 Clean and user-friendly chat interface (no sidebar distractions)
 
 ---
+medibot-rag-chatbot/
+├── app.py # Main Streamlit chatbot app
+├── vectorstore/ # FAISS vector database folder
+│ └── db_faiss/ # FAISS index files created from the PDF
+├── data/ # Folder to store your medical PDFs
+│ └── the_gayle-enclopedia_of_medicne.pdf
+├── .env # Your Hugging Face API key
+├── requirements.txt # Required Python packages
+└── README.md
 
-## 📂 Folder Structure
+python -m venv venv
+source venv/bin/activate     # On Linux/macOS
+venv\Scripts\activate        # On Windows
 
-
----
-
-## 🛠️ Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/medibot-rag-chatbot.git
-   cd medibot-rag-chatbot
-Install dependencies
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Set up .env file
-Create a .env file in the root directory:
-
-env
-Copy
-Edit
 HF_TOKEN=your_huggingface_api_token
-🧪 Run the App
-bash
-Copy
-Edit
+
 streamlit run app.py
-📌 Requirements
-text
-Copy
-Edit
-streamlit
-langchain
-huggingface_hub
-python-dotenv
-faiss-cpu
-sentence-transformers
+
