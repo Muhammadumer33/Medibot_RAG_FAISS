@@ -13,7 +13,7 @@ MediBot is an AI-powered chatbot designed to provide context-aware answers from 
 - 🗃️ Vector storage using **FAISS**
 - 🎨 Clean and user-friendly chat interface (no sidebar distractions)
 
----
+
 medibot-rag-chatbot/
 ├── app.py # Main Streamlit chatbot app
 ├── vectorstore/ # FAISS vector database folder
@@ -24,10 +24,10 @@ medibot-rag-chatbot/
 ├── requirements.txt # Required Python packages
 └── README.md
 
-python -m venv venv
-source venv/bin/activate     # On Linux/macOS
-venv\Scripts\activate        # On Windows
+- python -m venv venv
+- source venv/bin/activate     # On Linux/macOS
+- venv\Scripts\activate        # On Windows
 
-HF_TOKEN=your_huggingface_api_token
-streamlit run app.py
-
+- HF_TOKEN=your_huggingface_api_token
+- streamlit run app.py
+---
