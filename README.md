@@ -17,22 +17,6 @@ Simply upload a medical PDF, and MediBot can answer your queries intelligently u
 
 ---
 
-## 📁 Folder Structure
-
-medibot-rag-chatbot/
-├── app.py # Main Streamlit chatbot app
-├── vectorstore/ # FAISS vector database folder
-│ └── db_faiss/ # FAISS index files created from the PDF
-├── data/ # Folder to store your medical PDFs
-│ └── the_gayle-enclopedia_of_medicne.pdf
-├── .env # Your Hugging Face API key
-├── requirements.txt # Required Python packages
-└── README.md
-
-yaml
-Copy
-Edit
-
 ---
 
 ## ⚙️ Installation & Setup
