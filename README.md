@@ -23,22 +23,27 @@ Simply upload a medical PDF, and MediBot can answer your queries intelligently u
 
 ### 1. Clone the repository
 
-```bash
+
 git clone https://github.com/your-username/medibot-rag-chatbot.git  
 cd medibot-rag-chatbot  
-2. Create and activate a virtual environment
+
+###  2. Create and activate a virtual environment
 bash
 Copy
 Edit
 python -m venv venv  
 source venv/bin/activate           # On Linux/macOS  
 venv\Scripts\activate              # On Windows  
-3. Install dependencies
+
+
+###  3. Install dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt  
-4. Add your Hugging Face API token
+
+
+###  4. Add your Hugging Face API token
 Create a .env file in the root directory and add your Hugging Face token:
 
 env
@@ -47,7 +52,7 @@ Edit
 HF_TOKEN=your_huggingface_api_token  
 Make sure your token has Inference Endpoint permissions.
 
-5. Add your PDF
+###  5. Add your PDF
 Place your medical PDF file in the data/ folder.
 Example: data/the_gayle-enclopedia_of_medicne.pdf
 
@@ -81,4 +86,4 @@ sentence-transformers
 💡 Streamlit
 
 🔍 Sentence Transformers
-
+---
